@@ -1,3 +1,3 @@
 #!/bin/bash
 
-watch -n 60*1000 node bot.js
+watch -n 300 node bot.js
