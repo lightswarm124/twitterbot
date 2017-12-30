@@ -14,7 +14,7 @@ async function FetchPrice() {
         const ETHBTCData = await cc.price('ETH', ['BTC']);
         const BCHETHData = await cc.price('BCH', ['ETH']);
         const USDTUSDData = await cc.price('USDT', ['USD']);
-        return 'USDTUSD Price: ' + USDTUSDData.USD + 'USDT/USD\n' + 'BTCUSD Price: ' + BTCUSDData.USD + ' USD/BTC\n' + 'BCHUSD Price: ' + BCHUSDData.USD + ' USD/BCH\n' + 'BCHBTC Price: ' + BCHBTCData.BTC + ' BCH/BTC\n' + 'ETHBTC Price: ' + ETHBTCData.BTC + ' ETH/BTC\n' + 'BCHETH Price: ' + BCHETHData.ETH + 'BCH/ETH';
+        return 'Crypto Price Update Every 5 Minutes \n\n' + 'USDTUSD Price: ' + USDTUSDData.USD + 'USDT/USD\n' + 'BTCUSD Price: ' + BTCUSDData.USD + ' USD/BTC\n' + 'BCHUSD Price: ' + BCHUSDData.USD + ' USD/BCH\n' + 'BCHBTC Price: ' + BCHBTCData.BTC + ' BCH/BTC\n' + 'ETHBTC Price: ' + ETHBTCData.BTC + ' ETH/BTC\n' + 'BCHETH Price: ' + BCHETHData.ETH + 'BCH/ETH' + '\n\nSource: https://www.cryptocompare.com';
     } catch (err) {
         console.log(err);
     }
