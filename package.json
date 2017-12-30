@@ -1,0 +1,14 @@
+{
+  "name": "twitterbot",
+  "version": "1.0.0",
+  "main": "bot.js",
+  "license": "MIT",
+  "dependencies": {
+    "cryptocompare": "^0.3.0",
+    "node-fetch": "^1.7.3",
+    "twit": "^2.2.9"
+  },
+  "devDependencies": {
+    "nodemon": "^1.14.6"
+  }
+}
